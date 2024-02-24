@@ -18,4 +18,4 @@ ENV PORT=2020
 EXPOSE 2020
 
 # Start VSCode
-CMD code-server --port $PORT --disable-telemetry --auth none
+CMD code-server --port 2020 --disable-telemetry --auth none

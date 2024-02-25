@@ -18,4 +18,4 @@ ENV PORT=10000
 
 
 # Start VSCode
-CMD code-server --port $PORT --disable-telemetry --auth none
+CMD code-server --host 0.0.0.0 --port $PORT --disable-telemetry --auth none
